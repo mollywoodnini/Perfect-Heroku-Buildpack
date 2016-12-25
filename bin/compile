@@ -161,7 +161,7 @@ say Ok
 step Making application
 cd $BUILD_DIR/
 say "build with custom library paths"
-swift build --configuration release -Xlinker -L/app/.test/usr/lib -Xcc -I/app/.test/usr/include/ > $BUILD_DIR/build.log 2>&1 -lpthread -lxml2 || fail swift build --configuration release
+swift build --configuration release -Xlinker -L/app/.test/usr/lib -Xcc -I/app/.test/usr/include/ -Xcc -I/app/.test/usr/include/libxml2 -lxml2 > $BUILD_DIR/build.log 2>&1 -lpthread -lxml2 || fail swift build --configuration release
 say Ok
 
 #step Installing run-time dependencies into deployment environment
