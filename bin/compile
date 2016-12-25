@@ -71,8 +71,8 @@ step Setting environment
 BUILD_DIR=$1
 CACHE_DIR=$2
 SCRIPT_VER=3
-SWIFT_VER="swift-3.0-RELEASE"
-SWIFT_VER_LC="swift-3.0-release"
+SWIFT_VER="swift-3.0.1-RELEASE"
+SWIFT_VER_LC="swift-3.0.1-release"
 #SWIFT_VER="swift-DEVELOPMENT-SNAPSHOT-2016-06-20-a"
 say Ok
 
