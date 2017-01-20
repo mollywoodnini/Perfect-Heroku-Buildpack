@@ -118,6 +118,7 @@ apt-get $APT_OPTIONS -y --force-yes -d install --reinstall clang-3.6 | indent
 apt-get $APT_OPTIONS -y --force-yes -d install --reinstall libicu-dev | indent
 apt-get $APT_OPTIONS -y --force-yes -d install --reinstall libssl-dev | indent
 apt-get $APT_OPTIONS -y --force-yes -d install --reinstall uuid-dev | indent
+apt-get $APT_OPTIONS -y --force-yes -d install --reinstall openssl | indent
 apt-get $APT_OPTIONS -y --force-yes -d install --reinstall libcurl4-openssl-dev | indent
 #apt-get $APT_OPTIONS -y --force-yes -d install --reinstall zlib | indent
 #apt-get $APT_OPTIONS -y --force-yes -d install --reinstall zlibc | indent
